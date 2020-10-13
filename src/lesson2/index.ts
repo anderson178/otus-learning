@@ -1,6 +1,6 @@
-import { createInterface } from "readline";
-
+// eslint-disable-next-line prettier/prettier
 import { runner } from "./runner";
+import { createInterface } from "readline";
 
 const rl = createInterface({
   input: process.stdin,

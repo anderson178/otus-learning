@@ -1,4 +1,5 @@
-import { mul, div, add, minus } from "./mathOperators";
+// eslint-disable-next-line prettier/prettier
+import { mul, div, add, minus, exponentiation, factorial, squaring } from "./mathOperators";
 
 describe("mathOperators test cases", () => {
   it("mul 1 * 2 to equal 2", () => {
@@ -23,5 +24,17 @@ describe("mathOperators test cases", () => {
 
   it("minus 4 - 2 to equal 2", () => {
     expect(minus(4, 2)).toBe(2);
+  });
+
+  it("exponentiation 2 ^ 3 to equal 8", () => {
+    expect(exponentiation(2, 3)).toBe(8);
+  });
+
+  it("squaring 4 to equal 16", () => {
+    expect(squaring(4, 0)).toBe(16);
+  });
+
+  it("factorial 5 to equal 120", () => {
+    expect(factorial(5, 0)).toBe(120);
   });
 });

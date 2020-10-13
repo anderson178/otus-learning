@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f745852-3e6c-4b38-aa40-97c0a082af5d" name="Default Changelist" comment="lesson 2">
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/engine.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/engine.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/mathOperators.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/mathOperators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/parser.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/parser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/runner.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/runner.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/123.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    <list default="true" id="6f745852-3e6c-4b38-aa40-97c0a082af5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/engine.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/engine.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/engine.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/engine.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/mathOperators.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/mathOperators.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/mathOperators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/mathOperators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/parser.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/parser.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/runner.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/runner.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/runner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/runner.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +44,106 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../temp/otus-learning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Jest.runner.test.ts">
+    <configuration name="Runner long cases" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
+      <test-names>
+        <test-name value="Runner long cases" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
+      <test-names>
+        <test-name value="Runner long cases" />
+        <test-name value="2 ^ 3 - 10 * 10 / 5 - 3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Runner long cases.5 ! - 10 * 10 / 5 - 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
+      <test-names>
+        <test-name value="Runner long cases" />
+        <test-name value="5 ! - 10 * 10 / 5 - 3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Runner tripled/mixed cases.5 ! + 2 - 3 !" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
+      <test-names>
+        <test-name value="Runner tripled/mixed cases" />
+        <test-name value="5 ! + 2 - 3 !" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="runner.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/lesson2/index.ts">
+      <method v="2" />
+    </configuration>
+    <configuration name="calc" type="NodeJSConfigurationType" path-to-js-file="src/lesson2/index.ts" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.calc" />
+      <item itemvalue="Jest.Runner long cases" />
+      <item itemvalue="Jest.Runner long cases.5 ! - 10 * 10 / 5 - 3" />
+      <item itemvalue="Jest.Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" />
+      <item itemvalue="Jest.runner.test.ts" />
+      <item itemvalue="Jest.Runner tripled/mixed cases.5 ! + 2 - 3 !" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.runner.test.ts" />
+        <item itemvalue="Jest.Runner tripled/mixed cases.5 ! + 2 - 3 !" />
+        <item itemvalue="Jest.Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" />
+        <item itemvalue="Jest.Runner long cases.5 ! - 10 * 10 / 5 - 3" />
+        <item itemvalue="Jest.Runner long cases" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602440146581</updated>
       <workItem from="1602440147751" duration="299000" />
+      <workItem from="1602513855386" duration="22525000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1602440194714</created>
@@ -80,6 +171,133 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="lesson 2 - calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2 - calc" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2559" y="176" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602526631670">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2559" y="176" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602526631670" />
+    <state x="2699" y="442" width="1059" height="511" key="#xdebugger.evaluate" timestamp="1602589490130">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2699" y="442" width="1059" height="511" key="#xdebugger.evaluate/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589490130" />
+    <state x="522" y="125" width="912" height="904" key="CommitChangelistDialog2" timestamp="1602591647708">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="522" y="125" width="912" height="904" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602591647708" />
+    <state x="2442" y="100" width="912" height="904" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589971630" />
+    <state x="964" y="309" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602590840141">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="964" y="309" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602590840141" />
+    <state x="2884" y="289" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602521765265" />
+    <state width="948" height="287" key="GridCell.Tab.0.bottom" timestamp="1602592359286">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="948" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602592359286" />
+    <state width="1850" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589725104" />
+    <state width="948" height="287" key="GridCell.Tab.0.center" timestamp="1602592359286">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="948" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602592359286" />
+    <state width="1850" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589725104" />
+    <state width="948" height="287" key="GridCell.Tab.0.left" timestamp="1602592359286">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="948" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602592359286" />
+    <state width="1850" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589725104" />
+    <state width="948" height="287" key="GridCell.Tab.0.right" timestamp="1602592359286">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="948" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602592359286" />
+    <state width="1850" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589725104" />
+    <state width="1850" height="344" key="GridCell.Tab.1.bottom" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.1.center" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.1.left" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.1.right" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.2.bottom" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.2.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.2.center" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.2.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.2.left" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.2.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.2.right" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.2.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.3.bottom" timestamp="1602589714837">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.3.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714837" />
+    <state width="1850" height="344" key="GridCell.Tab.3.center" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.3.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.3.left" timestamp="1602589714836">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.3.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714836" />
+    <state width="1850" height="344" key="GridCell.Tab.3.right" timestamp="1602589714837">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1850" height="344" key="GridCell.Tab.3.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1602589714837" />
+    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602590678808">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602590678808" />
+    <state x="651" y="278" width="618" height="522" key="find.popup" timestamp="1602592297476">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="651" y="278" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602592297476" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lesson2/engine.ts</url>
+          <line>50</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lesson2/mathOperators.ts</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lesson2/engine.ts</url>
+          <line>41</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lesson2/mathOperators.ts</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

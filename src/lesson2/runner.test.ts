@@ -1,3 +1,4 @@
+// eslint-disable-next-line prettier/prettier
 import { runner } from "./runner";
 
 describe("Runner simple cases", () => {
@@ -11,6 +12,18 @@ describe("Runner simple cases", () => {
 
   it("2 + 32", () => {
     expect(runner("2 + 32")).toEqual(34);
+  });
+
+  it("5 !", () => {
+    expect(runner("5 !")).toEqual(120);
+  });
+
+  it("4 **", () => {
+    expect(runner("4 **")).toEqual(16);
+  });
+
+  it("2 ^ 3", () => {
+    expect(runner("2 ^ 3")).toEqual(8);
   });
 });
 
@@ -26,6 +39,18 @@ describe("Runner tripled/mixed cases", () => {
   it("2 + 2 * 3", () => {
     expect(runner("2 + 2 * 3")).toEqual(8);
   });
+
+  it("2 ** + 2 - 3", () => {
+    expect(runner("2 ** + 2 - 3")).toEqual(3);
+  });
+
+  it("5 ! + 2 - 3 !", () => {
+    expect(runner("2 - 3 !")).toEqual(-4);
+  });
+
+  it("5 ^ 2 + 2 - 3", () => {
+    expect(runner("5 ^ 2 + 2 - 3")).toEqual(24);
+  });
 });
 
 describe("Runner long cases", () => {
@@ -35,5 +60,17 @@ describe("Runner long cases", () => {
 
   it("20 - 10 * 10 / 5 - 3", () => {
     expect(runner("20 - 10 * 10 / 5 - 3")).toEqual(-3);
+  });
+
+  it("2 ** - 10 * 10 / 5 - 3", () => {
+    expect(runner("2 ** - 10 * 10 / 5 - 3")).toEqual(-19);
+  });
+
+  it("5 ! - 10 * 10 / 5 - 3", () => {
+    expect(runner("5 ! - 10 * 10 / 5 - 3")).toEqual(97);
+  });
+
+  it("2 ^ 3 - 10 * 10 / 5 - 3", () => {
+    expect(runner("2 ^ 3 - 10 * 10 / 5 - 3")).toEqual(-15);
   });
 });
