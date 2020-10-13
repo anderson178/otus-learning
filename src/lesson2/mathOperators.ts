@@ -26,8 +26,6 @@ export const squaring: ScalarOperationType = (
   first: number,
   second: number
 ): number => {
-  // console.log('sd');
-  // console.log(first * first);
   return first * first;
 };
 
