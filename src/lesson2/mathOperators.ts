@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 export type ScalarOperationType = (first: number, second: number) => number;
 
 export const mul: ScalarOperationType = (

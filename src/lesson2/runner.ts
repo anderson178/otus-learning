@@ -1,5 +1,4 @@
-// eslint-disable-next-line prettier/prettier
-import {ParsedLineType, parser} from "./parser";
+import { ParsedLineType, parser } from "./parser";
 
 import {
   secondPrioritiesCalc,

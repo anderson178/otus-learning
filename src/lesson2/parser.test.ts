@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 import { parser } from "./parser";
 
 describe("Parser correct cases", () => {

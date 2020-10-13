@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 import { ParsedLineType } from "./parser";
 import { isNumber } from "./helpers";
 import {
