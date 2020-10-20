@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 import { ParsedLineType } from "./parser";
 import { isNumber } from "./helpers";
 import {
@@ -9,12 +8,10 @@ import {
 
 const [FIRST, SECOND, THIRD, FOURTH] = mathPriorities;
 
-// eslint-disable-next-line @typescript-eslint/no-use-before-define
 export const secondPrioritiesCalc = (stack: ParsedLineType): ParsedLineType =>
   stack.reduce<ParsedLineType>((result, nextItem) => {
     const prevItem = result[result.length - 2];
     const item = result[result.length - 1];
-    // console.log(stack);
     if (!isNumber(String(item)) && mathOperatorsPriorities[item] === SECOND) {
       if (!mathOperators[item]) {
         throw new TypeError("Unexpected stack!");
@@ -26,7 +23,6 @@ export const secondPrioritiesCalc = (stack: ParsedLineType): ParsedLineType =>
     } else {
       result.push(nextItem);
     }
-    // console.log(result);
     return result;
   }, []);
 
@@ -55,7 +51,6 @@ export const thirdPrioritiesCalc = (stack: ParsedLineType): ParsedLineType =>
   stack.reduce<ParsedLineType>((result, nextItem) => {
     const prevItem = result[result.length - 2];
     const item = result[result.length - 1];
-    // console.log(stack);
     if (!isNumber(String(item)) && mathOperatorsPriorities[item] === THIRD) {
       if (!mathOperators[item]) {
         throw new TypeError("Unexpected stack!");
@@ -67,7 +62,6 @@ export const thirdPrioritiesCalc = (stack: ParsedLineType): ParsedLineType =>
     } else {
       result.push(nextItem);
     }
-    // console.log(result);
     return result;
   }, []);
 

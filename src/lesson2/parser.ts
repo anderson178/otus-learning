@@ -1,5 +1,4 @@
-// eslint-disable-next-line prettier/prettier
-import {isNumber} from "./helpers";
+import { isNumber } from "./helpers";
 import {
   mathOperators,
   mathOperatorsPriorities,

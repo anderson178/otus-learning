@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 import { mul, div, add, minus, exponentiation, factorial, squaring } from "./mathOperators";
 
 describe("mathOperators test cases", () => {

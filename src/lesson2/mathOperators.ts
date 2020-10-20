@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 export type ScalarOperationType = (first: number, second: number) => number;
 
 export const mul: ScalarOperationType = (
@@ -27,8 +26,6 @@ export const squaring: ScalarOperationType = (
   first: number,
   second: number
 ): number => {
-  // console.log('sd');
-  // console.log(first * first);
   return first * first;
 };
 
@@ -36,7 +33,6 @@ export const exponentiation: ScalarOperationType = (
   first: number,
   second: number
 ): number => {
-  // console.log('sd');
   return Math.pow(first, second);
 };
 

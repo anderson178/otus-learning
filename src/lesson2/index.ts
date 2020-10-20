@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 import { runner } from "./runner";
 import { createInterface } from "readline";
 
