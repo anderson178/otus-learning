@@ -56,19 +56,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Jest.runner.test.ts">
-    <configuration name="Runner long cases" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
-      <test-names>
-        <test-name value="Runner long cases" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -80,20 +67,6 @@
       <test-names>
         <test-name value="Runner long cases" />
         <test-name value="2 ^ 3 - 10 * 10 / 5 - 3" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Runner long cases.5 ! - 10 * 10 / 5 - 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/lesson2/runner.test.ts" />
-      <test-names>
-        <test-name value="Runner long cases" />
-        <test-name value="5 ! - 10 * 10 / 5 - 3" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -109,6 +82,26 @@
         <test-name value="Runner tripled/mixed cases" />
         <test-name value="5 ! + 2 - 3 !" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="mathOperators.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/mathOperators.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parser.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/lesson2/parser.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="runner.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -128,20 +121,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.calc" />
-      <item itemvalue="Jest.Runner long cases" />
-      <item itemvalue="Jest.Runner long cases.5 ! - 10 * 10 / 5 - 3" />
       <item itemvalue="Jest.Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" />
       <item itemvalue="Jest.runner.test.ts" />
       <item itemvalue="Jest.Runner tripled/mixed cases.5 ! + 2 - 3 !" />
+      <item itemvalue="Node.js.calc" />
+      <item itemvalue="Jest.mathOperators.test.ts" />
+      <item itemvalue="Jest.parser.test.ts" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.runner.test.ts" />
+        <item itemvalue="Jest.parser.test.ts" />
+        <item itemvalue="Jest.mathOperators.test.ts" />
         <item itemvalue="Jest.Runner tripled/mixed cases.5 ! + 2 - 3 !" />
         <item itemvalue="Jest.Runner long cases.2 ^ 3 - 10 * 10 / 5 - 3" />
-        <item itemvalue="Jest.Runner long cases.5 ! - 10 * 10 / 5 - 3" />
-        <item itemvalue="Jest.Runner long cases" />
       </list>
     </recent_temporary>
   </component>
