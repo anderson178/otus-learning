@@ -43,7 +43,6 @@ export const firstPrioritiesCalc = (stack: ParsedLineType): ParsedLineType =>
     } else {
       result.push(nextItem);
     }
-    console.log(result);
     return result;
   }, []);
 
