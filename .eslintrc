@@ -5,6 +5,11 @@
     "plugin:prettier/recommended",
     "plugin:react/recommended"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "prettier/prettier": [
       "error",
