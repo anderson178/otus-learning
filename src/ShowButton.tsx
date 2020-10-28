@@ -24,8 +24,8 @@ export class ShowButton extends Component<Prop, State> {
   }
 
   handleSubmit(event: any) {
+    event.preventDefault();
     this.setState({
-      value: this.state.value,
       count: this.state.count + 1,
     });
 
@@ -35,7 +35,6 @@ export class ShowButton extends Component<Prop, State> {
         " \nNumber of button presses: " +
         this.state.count
     );
-    event.preventDefault();
   }
 
   render() {
