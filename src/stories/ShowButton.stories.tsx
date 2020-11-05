@@ -1,7 +1,7 @@
 import React from "react";
 import { withKnobs } from "@storybook/addon-knobs";
 
-import { ShowButton } from "../ShowButton";
+import { ShowButton } from "../lesson3/ShowButton";
 
 export default {
   title: "ClickCounterButton",
